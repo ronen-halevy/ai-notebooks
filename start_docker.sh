@@ -1,0 +1,1 @@
+docker run -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -e NB_USER=ronen -e NB_UID=ronen:ronen   -w /ronen -e CHOWN_HOME=yes  -v /home/ronen/mine/jupyther-workspace/ai-notebooks:/ronen -v /home/ronen/mine/jupyther-workspace/output:/ronen/output ronen567/jupyther-tensorflow
